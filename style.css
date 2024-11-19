@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(91, 79, 143);/*define a cor de fundo*/
+}
+section{/*cria uma nova seção*/
+border: 1px dashed rgb(16, 0, 109);/* define o tamanho da borda*/
+}
+#status{ /*referência a "id"*/
+     color: rgb(255, 255, 255);/*define a cor*/
+     font-size: 30px;/*define o tamanho da fonte*/
+}
+button{
+background-color: rgb(169, 164, 206);/*define a cor de fundo*/
+width: 150px;/*define a largura*/
+height: 50px;/*define a altura*/
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;/*define o tamanho da fonte*/
+}
+.menu-item{
+    gap:5rem;
+    text-decoration: none;
+    width: 40px;
+    height:5%;
+}
+.menu-item:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
